@@ -7,9 +7,12 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index.js"
   },
   "dependencies": {
+    "@google-cloud/text-to-speech": "^6.0.1",
+    "google-auth-library": "^10.0.0-rc.1",
     "typescript": "^5.8.3"
   }
 }
